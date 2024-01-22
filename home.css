@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;   
+    font-family: Poppins, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #042846, #173a4d);
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    padding: 10px;
+    position: fixed;
+    background: linear-gradient(to right,#005f73,#015692);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    height: 4vh;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+header h1{
+    font-size: 35px;
+}
+header ul li {
+    display: inline-block;
+    margin-left: 15px ;
+    padding-right: 15px;
+}
+a {
+    color: #fff;
+    padding: 8px 10px;
+}
+
+.active{
+    background-color: #42828f;
+    border-radius: 8px;
+}
+ul li a:hover{
+    background-color: #42828f;
+    border-radius: 8px;
+}
+
+.content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img img{
+    max-width: 70vh;
+}
+
+.text{
+    margin-left: 50px;
+    margin-right: 270px;
+    font-size: 20px;
+}
+.text h4{
+    color: #82ed81;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.text h1{
+    transition: all 0.7s ease-in-out;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.text h1 .bus{
+    color: aliceblue;
+    padding: 8px;
+    margin: auto 85px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #3e7c3e;
+}
+
+.discount-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+}
+
+.discount-btn img {
+    height: 90px;
+    z-index: 999;
+}
+
+.discount-btn img:hover{
+    
+    transform: scale(1.1);
+}

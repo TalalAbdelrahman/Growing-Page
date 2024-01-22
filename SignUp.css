@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+body{
+    background:linear-gradient(to left,#00655d, #007a74);
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-back{
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #04312d;
+    padding: 8px 12px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.btn-back:hover{
+    background-color:#1a3a37;
+}
+
+h1{
+    color: #001e1c;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#back-form{
+    background-color: #fff;
+    width: 350px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    box-shadow: 4px 10px 8px rgba(0, 0, 0, 0.5);
+}
+
+.name-form,
+.email-form,
+.age-form{
+    position: relative;
+    right: 10px;
+    font-size: 18px;
+}
+
+.checkbox-form{
+    position: relative;
+    right: 10px;
+    font-size: 15px;
+}
+
+.input-name,
+.input-email,
+.input-password{
+    width: 102%;
+    height: 30px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+button{
+    background-color: rgb(102,211,101);
+    border-radius: 8px;
+    width: 95%;
+    font-size: 20px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+p{
+    margin-bottom: 0%;
+    
+}
